@@ -5794,11 +5794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EntityFramework Bloggy Practice\\EfBloggy\\EfBloggy.csproj",
+      "projectUniqueName": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EF bloggy full CRUD\\EfBloggy\\EfBloggy.csproj",
       "projectName": "EfBloggy",
-      "projectPath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EntityFramework Bloggy Practice\\EfBloggy\\EfBloggy.csproj",
+      "projectPath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EF bloggy full CRUD\\EfBloggy\\EfBloggy.csproj",
       "packagesPath": "C:\\Users\\svasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EntityFramework Bloggy Practice\\EfBloggy\\obj\\",
+      "outputPath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EF bloggy full CRUD\\EfBloggy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\svasa\\AppData\\Roaming\\NuGet\\NuGet.Config",

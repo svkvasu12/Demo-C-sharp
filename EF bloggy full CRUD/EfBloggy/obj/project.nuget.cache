@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Et3TYG9Pr95X5XvEQBiMGhgLizcOAdr5TsRbv0Ak35qPnZHkUwC4FmXr5dzFo2vmygEJ5VogT+v5f3tMQVvWEg==",
+  "dgSpecHash": "i1/Q/dwaWbumzv6Rq2u4wKZ/CYbgaiLnXRN09fUWjAgUukGtUWsWrD7QxtHRo5Cis2ej8tHuKQR/zrxD8Rflsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EntityFramework Bloggy Practice\\EfBloggy\\EfBloggy.csproj",
+  "projectFilePath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\EF bloggy full CRUD\\EfBloggy\\EfBloggy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\svasa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\svasa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

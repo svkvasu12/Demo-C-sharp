@@ -1,0 +1,16 @@
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\mini project_vasavi.exe
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\mini project_vasavi.deps.json
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\mini project_vasavi.runtimeconfig.json
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\mini project_vasavi.runtimeconfig.dev.json
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\mini project_vasavi.dll
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\ref\mini project_vasavi.dll
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\bin\Debug\net5.0\mini project_vasavi.pdb
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.csproj.AssemblyReference.cache
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.AssemblyInfoInputs.cache
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.AssemblyInfo.cs
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.csproj.CoreCompileInputs.cache
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.dll
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\ref\mini project_vasavi.dll
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.pdb
+C:\Users\svasa\OneDrive\Documents\Git\c-.NET-programming\MiniProject 1\obj\Debug\net5.0\mini project_vasavi.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "mini project_vasavi/1.0.0": {
+        "runtime": {
+          "mini project_vasavi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mini project_vasavi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

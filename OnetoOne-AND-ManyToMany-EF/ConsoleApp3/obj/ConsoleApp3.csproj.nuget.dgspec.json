@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\svasa\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj": {}
+    "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\OnetoOne-AND-ManyToMany-EF\\ConsoleApp3\\ConsoleApp3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\svasa\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj": {
+    "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\OnetoOne-AND-ManyToMany-EF\\ConsoleApp3\\ConsoleApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\svasa\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+        "projectUniqueName": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\OnetoOne-AND-ManyToMany-EF\\ConsoleApp3\\ConsoleApp3.csproj",
         "projectName": "ConsoleApp3",
-        "projectPath": "C:\\Users\\svasa\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+        "projectPath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\OnetoOne-AND-ManyToMany-EF\\ConsoleApp3\\ConsoleApp3.csproj",
         "packagesPath": "C:\\Users\\svasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\svasa\\source\\repos\\ConsoleApp3\\ConsoleApp3\\obj\\",
+        "outputPath": "C:\\Users\\svasa\\OneDrive\\Documents\\Git\\c-.NET-programming\\OnetoOne-AND-ManyToMany-EF\\ConsoleApp3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\svasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
