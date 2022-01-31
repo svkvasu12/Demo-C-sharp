@@ -159,8 +159,8 @@ namespace try_again2
 
                 //TO UPDATE TO UPDATE TO UPDATE TO UPDATE TO UPDATE TO UPDATE TO UPDATE
                 //**************************************************************************************************************************************
+
                 
-                Console.WriteLine("NOTE: YOU CAN ONLY UPDATE CATEGORY AND PRODUCT");
                 Console.WriteLine("provide id which you want to update");
                 id = Convert.ToInt32(Console.ReadLine());
 
@@ -181,8 +181,11 @@ namespace try_again2
 
                 Console.WriteLine("The product  has been Updated");
 
-               // *************************************************************************************************************************
-               
+                // *************************************************************************************************************************
+
+                Console.WriteLine("provide id which you want to Read");
+                id = Convert.ToInt32(Console.ReadLine());
+                List<Product> CarsRead = db.Products.ToList();
 
 
                 if (choice.Key == ConsoleKey.M )
@@ -274,139 +277,7 @@ namespace try_again2
 
 
                 }
-                /*
-                List<Product> sortedProducts = (from Product in db.Products orderby Product.Discriminator orderby Product.Date select Product).ToList();
-                 id = 0;
-                // Product PT = db.Products.Where(PT => PT.Id == id).FirstOrDefault();
-
-               
-                foreach (Product Product in sortedProducts) // loop through the array
-                {
-
-
-                    if (Product.Discriminator == "Laptop")
-                    {
-                        if (diff.TotalDays >= 1004)
-                        {
-
-                            Console.ForegroundColor = ConsoleColor.Red;
-
-                            Console.WriteLine(Product.Id.ToString().PadRight(4) + Product.GetType().Name.PadRight(20) + Product.Category.PadRight(20) + Product.Productname.PadRight(20) + Product.Price + "".PadRight(20) + Product.Date);
-
-
-                            Console.ResetColor();
-                        }
-
-                        else if (diff.TotalDays >= 913)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-
-                            Console.WriteLine(Product.Id.ToString().PadRight(4) + Product.GetType().Name.PadRight(20) + Product.Category.PadRight(20) + Product.Productname.PadRight(20) + Product.Price + "".PadRight(20) + Product.Date);
-
-                            Console.ResetColor();
-                        }
-
-
-                    }
-                    if ( Product.Discriminator == "Mobile")
-                    {
-
-                        if (diff.TotalDays >= 1004)
-                        {
-
-                            Console.ForegroundColor = ConsoleColor.Red;
-
-                            Console.WriteLine(Product.Id.ToString().PadRight(4) + Product.GetType().Name.PadRight(20) + Product.Category.PadRight(20) + Product.Productname.PadRight(20) + Product.Price + "".PadRight(20) + Product.Date);
-
-
-                            Console.ResetColor();
-                        }
-                        else if (diff.TotalDays >= 913)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-
-                            Console.WriteLine(Product.Id.ToString().PadRight(4) + Product.GetType().Name.PadRight(20) + Product.Category.PadRight(20) + Product.Productname.PadRight(20) + Product.Price + "".PadRight(20) + Product.Date);
-
-                            Console.ResetColor();
-                        }
-
-                    }
-
-
-
-                }*/
-
-                /*
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("producttype".PadRight(20) + "category".PadRight(20) + " " + "productName".PadRight(20) + " " + "price " + "".PadRight(20) + "date");
-                Console.ResetColor();
-
-                List<Product> sortedList = db.Products.OrderBy(choice => choice.GetType().Name).ThenBy(product1 => product1.Date).ToList();
-                foreach (Product PT in sortedList) //getting sorted list from 
-                {
-                    if (PT is Laptop)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Magenta;
-                        Console.WriteLine((PT as Laptop).GetTypeOfProduct().PadRight(20) + PT.Category.PadRight(20) + " " + PT.Productname.PadRight(20) + " " + PT.Price + "".PadRight(20) + PT.Date);
-                        Console.ResetColor();
-                    }
-                    else if (PT is Mobile)
-                    {
-                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                        Console.WriteLine((PT as Mobile).GetTypeOfProduct().PadRight(20) + PT.Category.PadRight(20) + " " + PT.Productname.PadRight(20) + " " + PT.Price + "".PadRight(20) + PT.Date);
-                        Console.ResetColor();
-                    }
-                }*/
-                //*******************************************************************''
-
-                /* List<Product> sortedList = (from PT in db.Products orderby PT.Discriminator orderby PT.Date select PT).ToList();
-
-                  if (diff.TotalDays >= 1004)
-                 {
-                     Console.ForegroundColor = ConsoleColor.Red;
-                     foreach (Product PT in sortedList) //getting sorted list from 
-                     {
-                         Console.WriteLine("Id".PadRight(4) + "name".PadRight(20) + "Category".PadRight(20) + "productname".PadRight(20) + "price" + "".PadRight(20) + "date".PadRight(20));
-
-                         db.Products.ToList().ForEach(PT => Console.WriteLine(PT.Id.ToString().PadRight(4) + PT.GetType().Name.PadRight(20) + PT.Category.PadRight(20) + PT.Productname.PadRight(20) + PT.Price + "".PadRight(20) + PT.Date));
-
-                         Console.ResetColor();
-                     }
-
-                 }
-
-                  if (diff.TotalDays >= 913)
-                 {
-
-                     Console.ForegroundColor = ConsoleColor.Yellow;
-                     foreach (Product PT in sortedList) //getting sorted list from 
-                     {
-                         Console.WriteLine("Id".PadRight(4) + "name".PadRight(20) + "Category".PadRight(20) + "productname".PadRight(20) + "price" + "".PadRight(20) + "date".PadRight(20));
-
-                         db.Products.ToList().ForEach(PT => Console.WriteLine(PT.Id.ToString().PadRight(4) + PT.GetType().Name.PadRight(20) + PT.Category.PadRight(20) + PT.Productname.PadRight(20) + PT.Price + "".PadRight(20) + PT.Date));
-
-                         Console.ResetColor();
-                     }
-
-                 }*/
-
-
-
-
-
-
-
-
-
-
-                /* String readProducts;
-                Console.WriteLine("Do you want to read the product Y/N : ");
-                readProducts = Console.ReadLine();
-                if(readProducts=="Y")
-                {
-                    List<Product> productsReaad = db.Products.ToList();
-                }*/
-
+                
 
 
 
@@ -496,8 +367,7 @@ namespace try_again2
             Location = location;
             Unit = unit;
             Place = place;
-            laptops = new List<Laptop>();
-            Mobiles = new List<Mobile>();
+           
         }
 
         public int Id { get; set; }
@@ -505,8 +375,8 @@ namespace try_again2
         public string Location { get; set; }
         public string Unit { get; set; }
         public string Place { get; set; }
-        public List<Laptop> laptops { get; set; }
-        public List<Mobile> Mobiles { get; set; }
+        
+        
        
     }
     class ProductContext : DbContext
